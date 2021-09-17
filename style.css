@@ -1,0 +1,87 @@
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    font-size: 22.4px;
+    line-height: 1.6;
+}
+.header-section{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.logo{
+    margin: 15px 100px;
+}
+.menu{
+    margin: 15px 100px;
+}
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+.banner{
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 250px;
+    color: white; 
+    padding-top: 60px;  
+}
+.banner-logo{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+.banner-logo .cleaning{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.painting{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+.painting img{
+    width: 90px;
+    height: 90px;
+}
+.banner-logo h4{
+    padding: 15px;
+    font-weight: normal;
+    font-size: large;
+}
+.banner-details h4{
+    font-size: 58px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    line-height: 56.7px;
+}
+.banner-details h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 88px;
+}
+.hori-line{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    height: 10px;
+    padding: 2.5px;
+    margin: 20px 0px;
+}
