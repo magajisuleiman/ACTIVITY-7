@@ -140,6 +140,53 @@ body{
         font-size: 12px;
         font-weight: 600;
     }
+    .working{
+        background-image: url(./img/billionphotos1882993.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        margin: 65px 40px;
+    }
+    .contact-text .first-text{
+        margin: 65px 40px;
+        text-align: left;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 16px;
+        line-height: 25.6px;
+        padding: 0px 60px;
+    }
+    .contact-text .second-text{
+        margin: 65px 40px 0px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 39px;
+        padding: 2px 60px;
+    }
+    .contact-text .third-text{
+        margin: 0px 40px 0px;
+        color: rgb(231, 26, 35);
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        padding: 20px 60px;
+    }
+    .pressure-test{
+        background-image: url(./img/billionphotos1883011.jpg);
+        margin: 30px 40px;
+    }
+
+      
+
+
+
+
+
+
 
 }
 
@@ -260,5 +307,50 @@ body{
         font-size: 12px;
         font-weight: 600;
     }
-  
+    .working{
+        background-image: url(./img/billionphotos1882993.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        margin: 65px 40px;
+    }
+    .contact-text .first-text{
+        width: 350px;
+        margin: 50px 40px;
+        text-align: left;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 16px;
+        line-height: 25.6px;
+        padding: 0px 20px;
+    }
+    .contact-text .second-text{
+        margin: 50px 40px 0px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 33px;
+        padding: 0px 20px;
+    }
+    .contact-text .third-text{
+        margin: 0px 40px 0px;
+        color: rgb(231, 26, 35);
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        padding: 15px 20px;
+    }
+    .pressure-test{
+        background-image: url(./img/billionphotos1883011.jpg);
+        margin: 30px 40px;
+    }
+
+
+
+
+
+
 }
