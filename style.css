@@ -364,16 +364,32 @@ body{
         margin: 50px 0px 25px;
     }
     .footer-button{
-        margin: 20px 266px 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
-    .white-button{
-        margin: 30px auto 80px;
+    .red-button{
+        display: flex;
+        justify-content: center;
+        margin: 20px 10px 50px;
     }
-    .white-button .button1{
-        background-color: white ;
-        color: black;
+    .red-button .button0{
+        background-color: #e71a23 ;
+        border: unset;
+        color: white;
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 5px;    
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .red-button .button1{
+        background-color: white;
         border: solid;
         border-width: 1px;
+        color: black;
         width: 150px;
         height: 50px;
         padding: 15px;
@@ -389,6 +405,7 @@ body{
         display: flex;
         justify-content: center;
         padding: 30px;
+        margin-top: 30px;
     
     }
     .bottom .bottom-section{
