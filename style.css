@@ -228,10 +228,6 @@ body{
         text-align: left;
         margin: 20px 0px 0px;
     }
-    .section2{
-        display: flex;
-        margin: 30px 0px 30px;
-    }
     .services-section{
         width: 100%;
     }
@@ -276,6 +272,7 @@ body{
         font-family: 'Open Sans',sans-serif;
     }
     
+
 
 
 
@@ -495,10 +492,53 @@ body{
         text-align: left;
         margin: 20px 0px 0px;
     }
-    .section2{
-        display: flex;
-        margin: 30px 0px 30px;
+    .services-section{
+        width: 100%;
     }
+    .services-section h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 55px;
+        font-family: 'Roboto', sans-serif;
+        margin: 60px 0px 0px 25px;
+    }
+    .painting2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .painting2 .services-box{
+        margin: 30px 80px;
+    }
+    .painting2 .brush{
+        width: 83px;
+        height: 83px;
+        background-color: #e71a23;
+        border-radius: 50%;
+    }
+    .painting2 .brush img{
+        margin: 20px;
+    }
+    .painting2 .brushpaint h2{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 19px;
+        font-family: 'Roboto',sans-serif;
+        text-align: left;
+        width: auto;
+        margin: 20px 0px 0px;
+    }
+    .painting2 .paintmessage h4{
+        margin: 20px 0px 0px;
+        font-size: 16px;
+        font-style: italic;
+        text-align: left;
+        font-family: 'Open Sans',sans-serif;
+    }
+
+
+
+
 
 
 
