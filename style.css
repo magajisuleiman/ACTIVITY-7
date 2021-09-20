@@ -613,7 +613,7 @@ body{
         background-color: #104e92;
     }
     .about-content .about{
-        margin: 40px;
+        margin: 60px;
     }
     .about h4{
         font-size: 18px;
@@ -634,7 +634,6 @@ body{
         font-family: 'Roboto',sans-serif;
     }
     .about-row1 .pic1{
-        width: 385px;
         height: 311px;
         background-image: url(./img/frg.jpg);
         background-size: cover;
@@ -642,7 +641,6 @@ body{
         margin: 40px;        
     }
     .about-row1 .pic2{
-        width: 385px;
         height: 311px;
         background-image: url(./img/rg.jpg);
         background-size: cover;
@@ -650,15 +648,17 @@ body{
         margin: 40px;
     }
     .about-row1 .pic3{
-        width: 385px;
         height: 311px;
         background-image: url(./img/billionphotos1882993.jpg);
+        background-size: cover;
+        background-position: center;
         margin: 40px
     }  
     .about-row1 .pic4{
-        width: 385px;
         height: 311px;
         background-image: url(./img/billionphotos1882951.jpg);
+        background-size: cover;
+        background-position: center;
         margin: 40px
     }
 
