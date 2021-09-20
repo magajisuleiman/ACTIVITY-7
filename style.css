@@ -607,9 +607,13 @@ body{
         font-family: 'Open Sans',sans-serif;
     }
     .about-section{
+        width: 100%;
         display: flex;
         flex-direction: column;
         background-color: #104e92;
+    }
+    .about-content .about{
+        margin: 40px;
     }
     .about h4{
         font-size: 18px;
@@ -619,9 +623,6 @@ body{
         text-align: left;
         color: white;
         font-family: 'Montserrat', sans-serif;
-    }
-    .about-section .about{
-        margin: 100px 60px 0px;
     }
     .about h1{
         font-size: 72px;
@@ -660,6 +661,12 @@ body{
         background-image: url(./img/billionphotos1882951.jpg);
         margin: 40px
     }
+
+
+
+
+
+
 
 
 
