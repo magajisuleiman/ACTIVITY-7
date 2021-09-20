@@ -126,7 +126,6 @@ body{
         line-height: 32px;
     }
     .booknow-section{
-        display: flex;
         margin: 30px auto 80px;
     }
     .booknow-section .button{
@@ -335,31 +334,78 @@ body{
         background-image: url(./img/billionphotos1882951.jpg);
         margin: 15px 40px 50px 15px;
     }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-text{
+        margin: 100px 100px 20px;
+    }
+    .footer-text h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px 0px 25px;
+    }
+    .footer-text h3{
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        font-family: 'open sans', sans-serif;
+        margin: 50px 0px 25px;
+    }
+    .footer-button{
+        margin: 20px 266px 20px;
+    }
+    .white-button{
+        margin: 30px auto 80px;
+    }
+    .white-button .button1{
+        background-color: white ;
+        color: black;
+        border: solid;
+        border-width: 1px;
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 5px;    
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .bottom{
+        width: 100%;
+        height: 400px;
+        background-color: #333333;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    .bottom .bottom-section{
+        width: 55%;
+        margin-top: 5%;
+    }
+    .bottom-section h4{
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        font-weight: normal;
+    }
+    .bottom-section .address{
+        font-size: 11px;
+        padding-top: 150px;
+    }
 }
-
-
 @media screen and (max-width: 480px){
     .header-section{
         display: flex;
