@@ -126,7 +126,7 @@ body{
         line-height: 32px;
     }
     .booknow-section{
-        margin: 30px auto 80px;
+        margin: 40px 0px 40px;
     }
     .booknow-section .button{
         background-color: #e71a23 ;
@@ -422,39 +422,6 @@ body{
         font-size: 11px;
         padding-top: 150px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 @media screen and (max-width: 480px){
     .header-section{
@@ -558,7 +525,7 @@ body{
         line-height: 32px;
     }
     .booknow-section{
-        margin: 30px auto 70px;
+        margin: 40px 0px 50px;
     }
     .booknow-section .button{
         background-color: #e71a23 ;
@@ -757,9 +724,6 @@ body{
         background-position: center;
         margin: 40px
     }
-
-
-
     .footer{
         width: 100%;
         display: flex;
@@ -849,21 +813,4 @@ body{
         font-size: 11px;
         padding-top: 150px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
