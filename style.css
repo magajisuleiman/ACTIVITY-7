@@ -140,13 +140,6 @@ body{
     font-size: 12px;
     font-weight: 600;
 }
-
-
-
-
-
-
-
 .contact{
     display: flex;
     flex-direction: row;
@@ -201,14 +194,6 @@ body{
     height: 350px;
     background-image: url(./img/billionphotos1883011.jpg);
 }
-
-
-
-
-
-
-
-
 .engineer-section{
     width: 100%;
     display: flex;
@@ -301,10 +286,21 @@ body{
     font-family: 'Open Sans',sans-serif;
 }
 .about-section{
-    display: flex;
-    flex-direction: column;
     background-color: #104e92;
     margin: 20px;
+}
+.about-section .about-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.about-section .about-content .about{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0px 50px 450px;
 }
 .about h4{
     font-size: 18px;
@@ -314,9 +310,6 @@ body{
     text-align: left;
     color: white;
     font-family: 'Montserrat', sans-serif;
-}
-.about-section .about{
-    margin: 100px 60px 0px;
 }
 .about h1{
     font-size: 72px;
@@ -328,11 +321,13 @@ body{
     font-family: 'Roboto',sans-serif;
 }
 .combinerows{
+    width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 100px;
 }
 .about-row1{
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -452,9 +447,6 @@ body{
     font-size: 11px;
     padding-top: 150px;
 }
-   
-    
-
 
 
 
@@ -471,429 +463,71 @@ body{
         font-size: 22.4px;
         line-height: 1.6;
     }
-    .header-section{
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-    .logo{
-        margin: 15px 100px;
-    }
-    .menu{
-        margin: 15px 100px;
-    }
-    .banner-section{
-        display: flex;
-        flex-direction: column;
-        background-image: url(./img/hero-bg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 38% 0%;
-    }
-    .banner{
-        width: 70%;
-        margin-left: 50px;
-        margin-top: 150px;
-        margin-bottom: 50px;
-        color: white; 
-        padding-top: 60px;  
-    }
-    .banner-logo{
-        display: flex;
-        flex-direction: row;
-        justify-items: flex-start;
-    }
-    .banner-logo .cleaning{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .painting{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding-top: 20px;
-    }
-    .painting img{
-        width: 80px;
-        height: 80px;
-    }
-    .banner-logo h4{
-        padding: 15px;
-        font-weight: normal;
-        font-size: large;
-    }
     .banner-details h4{
-        font-size: 48px;
-        font-style: normal;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300px;
-        letter-spacing: 3px;
-        line-height: 56.7px;
+        font-size: 38px;
     }
     .banner-details h1{
-        font-family: 'Archivo Black', sans-serif;
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 88px;
+        font-size: 70px;
     }
-    .hori-line{
+    .banner-details .hori-line{
         width: 80%;
-        display: flex;
-        justify-content: flex-start;
-        background-color: white;
-        height: 10px;
-        padding: 2.5px;
-        margin: 20px 0px;
     }
-    .services{
-        display: flex;
+    .contact{
         flex-direction: column;
-        align-items: center;
-        background-color: #f2f2f2;
+        margin: 50px 50px;
     }
-    .services-text{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .services-text h4{
-        color: #999999;
-        letter-spacing: 2px;
-        font-size: 18px;
-        font-weight: 700;
-        margin: 130px 49px 0;
-        line-height: 19px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-    }
-    .services-text h1{
-        font-weight: 700;
-        font-size: 50px;
-        width: 780px;
-        line-height: 55px;
-        margin: 20px auto 0;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-    .services-text h3{
-        font-size: 20px;
-        font-weight: 300;
-        width: 700px;
-        margin: 30px auto 0;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 32px;
-    }
-    .booknow-section{
-        margin: 40px 0px 40px;
-    }
-    .booknow-section .button{
-        background-color: #e71a23 ;
-        border: unset;
-        color: white;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .working{
-        background-image: url(./img/billionphotos1882993.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 350px;
-        margin: 65px 40px;
-    }
-    .contact-text .first-text{
-        margin: 65px 40px;
-        text-align: left;
-        font-family: 'Open Sans',sans-serif;
-        font-size: 16px;
-        line-height: 25.6px;
-        padding: 0px 60px;
-    }
-    .contact-text .second-text{
-        margin: 65px 40px 0px;
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 39px;
-        padding: 2px 60px;
-    }
-    .contact-text .third-text{
-        margin: 0px 40px 0px;
-        color: rgb(231, 26, 35);
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px;
-        padding: 20px 60px;
-    }
-    .pressure-test{
-        background-image: url(./img/billionphotos1883011.jpg);
-        margin: 30px 40px 40px;
-    }
-    .engineer-section{
+    .contact-section1{
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        background-color: #D7D5DA;
+    }
+    .contact-section1 .contact-text .first-text {
+        padding: 0px;
+        margin: 40px 30px;
+    }
+    .contact-section1 .phone .second-text{
+        padding: 0px;
+        margin: 40px 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contact-section1 .phone .third-text{
+        padding: 0px;
+        margin: 40px 30px;
+        font-family: 'Roboto', sans-serif;
     }
     .engineer{
-        display: flex;
-        width: 50%;
-        background-image: url(./img/billionphotos1079319min.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: 30px 30px 0px;
-        background-size: 500px 530px;
-    }    
+        background-size: 390px 650px;
+    }
     .engineer-content{
-        width: 50%;
-        display: flex;
+        width: 65%;
+        padding: 0px 10px 0px 0px;
+    }
+    .about-section .about-content{
         flex-direction: column;
-        padding: 0px 100px 0px 0px;
+        justify-content: center;
     }
-    .engineer-content .best h1{
-        font-size: 70px;
-        color: #104e92;
-        font-weight: 700;
-        line-height: 55px;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        margin: 135px 0 0;
-        text-align: left;
-    }
-    .engineer-content .horiline{
+    .about-section .about-content .about{
+        padding: 34px;
+        margin: 50px 0px 0px 0px;
         width: 100%;
-        background-color:  #e71a23;
-        height: 10px;
-        padding: 2.5px;
-        margin: 20px 0px;
-    }
-    .engineer-content .company h4{
-        font-size: 12px;
-        color: black;
-        font-weight: 700;
-        line-height: 28px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
-        text-align: left;
-        margin: 20px 0px 0px;
-    }
-    .services-section{
-        width: 100%;
-    }
-    .services-section h1{
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 55px;
-        font-family: 'Roboto', sans-serif;
-        margin: 60px 0px 0px 25px;
-    }
-    .painting2{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-    .painting2 .services-box{
-        margin: 55px;
-    }
-    .painting2 .brush{
-        width: 83px;
-        height: 83px;
-        background-color: #e71a23;
-        border-radius: 50%;
-    }
-    .painting2 .brush img{
-        margin: 20px;
-    }
-    .painting2 .brushpaint h2{
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 19px;
-        font-family: 'Roboto',sans-serif;
-        text-align: left;
-        width: auto;
-        margin: 20px 0px 0px;
-    }
-    .painting2 .paintmessage h4{
-        margin: 20px 0px 0px;
-        font-size: 16px;
-        font-style: italic;
-        text-align: left;
-        font-family: 'Open Sans',sans-serif;
-    }
-    .about-section{
-        display: flex;
-        flex-direction: column;
-        background-color: #104e92;
-        margin: 20px;
-    }
-    .about h4{
-        font-size: 18px;
-        line-height: 21px;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-align: left;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .about-section .about{
-        margin: 100px 60px 0px;
-    }
-    .about h1{
-        font-size: 72px;
-        line-height: 72px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        text-align: left;
-        color: white;
-        font-family: 'Roboto',sans-serif;
     }
     .combinerows{
-        display: flex;
-        flex-direction: column;
-    }
-    .about-row1{
         width: 100%;
-        display: flex;
-        flex-direction: row;
+        margin: 0px 0px;
     }
-    .about-row1 .pic1{
-        width: 385px;
-        height: 311px;
-        background-image: url(./img/frg.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px 15px 20px 40px;
-    }
-    .about-row1 .pic2{
-        width: 385px;
-        height: 311px;
-        background-image: url(./img/rg.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px 40px 20px 15px;
-    }
-    .about-row1 .pic3{
-        width: 385px;
-        height: 323px;
-        background-image: url(./img/billionphotos1882993.jpg);
-        margin: 15px 15px 50px 40px;
-    }  
-    .about-row1 .pic4{
-        width: 385px;
-        height: 323px;
-        background-image: url(./img/billionphotos1882951.jpg);
-        margin: 15px 40px 50px 15px;
-    }
-    .footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-button{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .footer-text{
-        margin: 100px 100px 20px;
-    }
-    .footer-text h1{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        margin: 0px 0px 25px;
-    }
-    .footer-text h3{
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 42px;
-        text-align: center;
-        font-family: 'open sans', sans-serif;
-        margin: 50px 0px 25px;
-    }
-    .footer-button{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-    .red-button{
-        display: flex;
-        justify-content: center;
-        margin: 20px 10px 50px;
-    }
-    .red-button .button0{
-        background-color: #e71a23 ;
-        border: unset;
-        color: white;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .red-button .button1{
-        background-color: white;
-        border: solid;
-        border-width: 1px;
-        color: black;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .bottom{
-        width: 100%;
-        height: 400px;
-        background-color: #333333;
-        display: flex;
-        justify-content: center;
-        padding: 30px;
-        margin-top: 30px;
+
     
-    }
-    .bottom .bottom-section{
-        width: 55%;
-        margin-top: 5%;
-    }
-    .bottom-section h4{
-        text-align: center;
-        font-size: 15px;
-        color: white;
-        font-weight: normal;
-    }
-    .bottom-section .address{
-        font-size: 11px;
-        padding-top: 150px;
-    }
 
 
 
 
+
+
+
+
+
+
+    
+    
 }
-
-
-
-
-
 @media screen and (max-width: 480px){
     *,*::before,*::after{
         margin: 0;
@@ -905,393 +539,15 @@ body{
         font-size: 22.4px;
         line-height: 1.6;
     }
-    .header-section{
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .logo{
-        margin: 15px 20px;
-    }
-    .menu{
-        margin: 15px 20px;
-    }
-    .banner-section{
-        display: flex;
-        flex-direction: column;
-        background-image: url(./img/hero-bg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 81.49% 50%;
-    }
-    .banner{
-        width: 100%;
-        color: white; 
-        padding-top: 400px;  
-    } 
-    .banner-details{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    .banner-details h4{
-        font-size: 36px;
-        font-style: normal;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300px;
-        letter-spacing: 3px;
-        line-height: 42px;
-        margin-left: 30px;
-    }
-    .banner-details h1{
-        font-family: 'Archivo Black', sans-serif;
-        font-weight: 700;
-        font-size: 58px;
-        line-height: 64px;
-        margin-left: 30px;
-    }
-    .hori-line{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        height: 10px;
-        margin: 30px;
-        margin-bottom: 60px;
-    }
-    .banner-logo{
-        display: none;
-    }
-    .services{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #f2f2f2;
-    }
-    .services-text{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .services-text h4{
-        color: #999999;
-        letter-spacing: 2px;
-        font-size: 18px;
-        font-weight: 700;
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-top: 60px;
-        line-height: 19px;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-    }
-    .services-text h1{
-        font-weight: 700;
-        font-size: 50px;
-        width: 340px;
-        line-height: 55px;
-        margin: 50px auto 0;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-    .services-text h3{
-        font-size: 20px;
-        font-weight: 300;
-        width: 340px;
-        margin: 30px auto 0;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 32px;
-    }
-    .booknow-section{
-        margin: 40px 0px 50px;
-    }
-    .booknow-section .button{
-        background-color: #e71a23 ;
-        border: unset;
-        color: white;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .working{
-        background-image: url(./img/billionphotos1882993.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 350px;
-        margin: 65px 40px;
-    }
-    .contact-text .first-text{
-        width: 350px;
-        margin: 50px 40px;
-        text-align: left;
-        font-family: 'Open Sans',sans-serif;
-        font-size: 16px;
-        line-height: 25.6px;
-        padding: 0px 20px;
-    }
-    .contact-text .second-text{
-        margin: 50px 40px 0px;
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 33px;
-        padding: 0px 20px;
-    }
-    .contact-text .third-text{
-        margin: 0px 40px 0px;
-        color: rgb(231, 26, 35);
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 29px;
-        padding: 15px 20px;
-    }
-    .pressure-test{
-        background-image: url(./img/billionphotos1883011.jpg);
-        margin: 30px 40px;
-    }
-    .engineer-section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: #D7D5DA;
-    }
-    .engineer-section .engineer{
-        display: flex;
-        height: 450px;
-        background-image: url(./img/billionphotos1079319min.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 340px 436px;
-    }  
-    .engineer-content{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 80px;
-    }
-    .engineer-content .best h1{
-        font-size: 70px;
-        color: #104e92;
-        font-weight: 700;
-        line-height: 55px;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        margin: 50px 0 0;
-        text-align: left;
-    }
-    .engineer-content .horiline{
-        width: 100%;
-        background-color:  #e71a23;
-        height: 10px;
-        padding: 2.5px;
-        margin: 20px 0px;
-    }
-    .engineer-content .company h4{
-        font-size: 12px;
-        color: black;
-        font-weight: 700;
-        line-height: 28px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
-        text-align: left;
-        margin: 20px 0px 0px;
-    }
-    .services-section{
-        width: 100%;
-    }
-    .services-section h1{
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 55px;
-        font-family: 'Roboto', sans-serif;
-        margin: 60px 0px 0px 25px;
-    }
-    .painting2{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .painting2 .services-box{
-        margin: 30px 80px;
-    }
-    .painting2 .brush{
-        width: 83px;
-        height: 83px;
-        background-color: #e71a23;
-        border-radius: 50%;
-    }
-    .painting2 .brush img{
-        margin: 20px;
-    }
-    .painting2 .brushpaint h2{
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 19px;
-        font-family: 'Roboto',sans-serif;
-        text-align: left;
-        width: auto;
-        margin: 20px 0px 0px;
-    }
-    .painting2 .paintmessage h4{
-        margin: 20px 0px 0px;
-        font-size: 16px;
-        font-style: italic;
-        text-align: left;
-        font-family: 'Open Sans',sans-serif;
-    }
-    .about-section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: #104e92;
-    }
-    .about-content .about{
-        margin: 40px;
-    }
-    .about h4{
-        font-size: 18px;
-        line-height: 21px;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-align: left;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-    .about h1{
-        font-size: 72px;
-        line-height: 72px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        text-align: left;
-        color: white;
-        font-family: 'Roboto',sans-serif;
-    }
-    .about-row1 .pic1{
-        height: 311px;
-        background-image: url(./img/frg.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px;        
-    }
-    .about-row1 .pic2{
-        height: 311px;
-        background-image: url(./img/rg.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px;
-    }
-    .about-row1 .pic3{
-        height: 311px;
-        background-image: url(./img/billionphotos1882993.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px
-    }  
-    .about-row1 .pic4{
-        height: 311px;
-        background-image: url(./img/billionphotos1882951.jpg);
-        background-size: cover;
-        background-position: center;
-        margin: 40px
-    }
-    .footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-button{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .footer-text{
-        margin: 100px 100px 20px;
-    }
-    .footer-text h1{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        margin: 0px 0px 25px;
-    }
-    .footer-text h3{
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 42px;
-        text-align: center;
-        font-family: 'open sans', sans-serif;
-        margin: 50px 0px 25px;
-    }
-    .footer-button{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .red-button{
-        display: flex;
-        justify-content: center;
-        margin: 20px 0px 40px;
-    }
-    .red-button .button0{
-        background-color: #e71a23 ;
-        border: unset;
-        color: white;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .red-button .button1{
-        background-color: white;
-        border: solid;
-        border-width: 1px;
-        color: black;
-        width: 150px;
-        height: 50px;
-        padding: 15px;
-        border-radius: 5px;    
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 600;
-    }
+   
 
-    .bottom{
-        width: 100%;
-        height: 400px;
-        background-color: #333333;
-        display: flex;
-        justify-content: center;
-        padding: 30px;
-        margin-top: 30px;
-    
-    }
-    .bottom .bottom-section{
-        width: 55%;
-        margin-top: 5%;
-    }
-    .bottom-section h4{
-        text-align: center;
-        font-size: 15px;
-        color: white;
-        font-weight: normal;
-    }
-    .bottom-section .address{
-        font-size: 11px;
-        padding-top: 150px;
-    }
+
+
+
+
+
+
+
+
+
 }
