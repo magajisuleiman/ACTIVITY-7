@@ -447,11 +447,6 @@ body{
     font-size: 11px;
     padding-top: 150px;
 }
-
-
-
-
-
 @media screen and (min-width: 481px) and (max-width: 876px){
     *,*::before,*::after{
         margin: 0;
@@ -512,21 +507,8 @@ body{
     .combinerows{
         width: 100%;
         margin: 0px 0px;
-    }
+    }   
 
-    
-
-
-
-
-
-
-
-
-
-
-    
-    
 }
 @media screen and (max-width: 480px){
     *,*::before,*::after{
@@ -539,15 +521,143 @@ body{
         font-size: 22.4px;
         line-height: 1.6;
     }
-   
+    .header-section{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .logo{
+        margin: 15px 75px;
+    }
+    .banner-section{
+        background-position: 100% 50%;
+    }
+    .banner-logo{
+        display: none;
+    }
+    .banner-details h4 {
+        font-size: 36px;
+        font-weight: 300;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 43px;
+    }
+    .banner-details h1{
+        font-size: 58px;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'Archivo Black', sans-serif;
+        line-height: 64px;
+    }
+    .hori-line{
+        width: 100%;
+    }
+    .services-text h1{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 55px;
+        margin: 20px auto 0;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        width: unset;
+    }
+    .services-text h3{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 30px auto 0;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 32px;
+        width: unset;
+    }
+    .contact{
+        flex-direction: column;
+        margin: unset;
+    }
+    .contact-section1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: unset;
+    }
+    .contact-section1 .contact-text .first-text{
+        text-align: left;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 16px;
+        line-height: 25.6px;
+        padding: 50px;
+        margin: unset;
+    }
+    .contact-section1 .working{
+        margin: 20px;
+    }
 
-
-
-
-
-
-
-
-
-
+    .contact-section1 .phone .second-text{
+        padding: 10px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+    } 
+    .contact-section1 .phone .third-text{
+        padding: 10px 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    } 
+    .engineer-section{
+        flex-direction: column;
+    }
+    .engineer{
+        height: 600px;
+        width: unset;
+        margin: unset;
+        background-size: 350px 530px;
+    }
+    .engineer-content{
+        width: unset;
+        padding: unset;
+        margin: 0px 30px;
+    }
+    .engineer-content .best h1{
+        font: 50px;
+    }
+    .services-section h1 {
+        margin: 40px 40px 40px 40px;
+    }
+    
+    .painting2{
+        flex-direction: column;
+    } 
+    .painting2 .services-box{
+        margin: 25px 55px;
+    }
+    .about-section .about-content{
+        flex-direction: column;
+    }
+    .about-section .about-content .about{
+        width: unset;
+        margin: 50px 50px 50px 50px;
+    }
+    .about-row1{
+        flex-direction: column;
+    }
+    .combinerows{
+        width: unset;
+        margin: unset; 
+    }
+    .about-row1 .pic1{
+        width: unset;
+        margin: 20px 50px 20px 50px;
+    }
+    .about-row1 .pic2{
+        width: unset;
+        margin: 20px 50px;;
+    }
+    .about-row1 .pic3{
+        width: unset;
+        margin: 20px 50px;
+    }
+    .about-row1 .pic4{
+        width: unset;
+        margin: 20px 50px 60px 50px;
+    }
 }
