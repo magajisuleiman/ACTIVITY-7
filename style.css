@@ -641,6 +641,9 @@ body{
         width: unset;
         margin: 50px 50px 50px 50px;
     }
+    .about h1{
+        font-size: 68px;
+    } 
     .about-row1{
         flex-direction: column;
     }
